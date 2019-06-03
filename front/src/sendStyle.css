@@ -1,0 +1,125 @@
+#block {
+    height: 100%;
+    min-height: 100vh;
+    background-image: url('fox.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sendingback .bt{
+    background-color: #312885;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.sendingback .btn-grad {background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%)}
+.sendingback .btn-grad:hover { background-position: right center; }
+
+.sendingback button {
+    margin-top: 40px;
+}
+.sendingback input {
+    margin-top: 40px;
+}
+
+.sendingback #slid{
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sendingback .MuiSlider-root-1 {
+    width: 50% !important;
+}
+.sendingback #label {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#footerlog {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 82%;
+}
+
+#footerhome {
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+
+ #footersend {
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 43%;
+}
+.sendingback .mb-5,.sendingback .my-5 {
+    margin-bottom: 0 !important;
+}
+.MuiButtonBase-root-15 {
+    margin-top: 0 !important;
+}
+
+.sendingback .selecting {
+    margin-top: 50px;
+}
+
+.sendingback .card-body {
+    height: 79vh;
+}
+
+/* home */
+
+.receive .card-body {
+    height: 79vh;
+}
+
+.receive .mb-5,.receive .my-5 {
+    margin-bottom: 0 !important;
+}
+
+.receive footer{
+    margin-top: 30px;
+}
+
+.receive .btn-grad {background-image: linear-gradient(to right, #614385 0%, #516395 51%, #614385 100%)}
+.receive .btn-grad:hover { background-position: right center; }
+
+.receive .scrolling {
+    overflow: auto;
+    height: 70vh;
+    text-align: center;
+}
+.receive .scroll {
+    margin: 10px;
+}
+
+@media (min-width: 1000px) {
+    .receive .row, .sendingback .row {
+        margin-left: 50vh;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        margin-top: -50vh;
+    }
+
+    #footerhome,  #footerlog, #footersend {
+        position: inherit;
+    }
+
+    .receive footer{
+        margin-top: -50vh ;
+    }
+}
